@@ -1,0 +1,13 @@
+{
+  "redis.servers": "127.0.0.1:6379",
+  "redis.password": "redis",
+  "redis.sentinel": false,
+  "redis.masterName": "mymaster",
+  "redis.timeout": 5000,
+  "pool.maxActive": 100,
+  "pool.minIdle": 10,
+  "poll.maxWaitMillis":3000,
+  "pool.testOnBorrow": true,
+  "pool.testOnReturn": false,
+  "pool.testWhileIdle": true
+}
